@@ -141,7 +141,7 @@ img {
 
 .header__content {
     height: calc(100% - 83px - 175px);
-    background: url('/img/header/header_bg.png') 0 0/100% 100% no-repeat;
+    background: url('../img/header/header_bg.png') 0 0/100% 100% no-repeat;
     padding-top: 175px;
 }
 
