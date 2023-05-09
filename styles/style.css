@@ -97,6 +97,7 @@ img {
 
 .header {
     height: 100vh;
+    background: linear-gradient(180deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 63.07%), rgba(0, 0, 0, 0.07)
 }
 
 .header__nav {
@@ -141,7 +142,10 @@ img {
 
 .header__content {
     height: calc(100% - 83px - 175px);
-    background: url('../img/header/header_bg.png') 0 0/100% 100% no-repeat;
+    background-image: url('../img/header/BG.png');
+    background-size: 90% 102%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
     padding-top: 175px;
 }
 
